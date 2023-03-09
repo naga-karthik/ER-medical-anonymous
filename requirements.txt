@@ -1,0 +1,13 @@
+torch==1.8.1+cu111
+torchvision==0.9.1+cu111
+monai==0.9.0
+nibabel==3.2.2
+num2words==0.5.11
+numpy==1.22.4
+ivadomed==2.9.6
+wandb==0.12.18
+scikit-image==0.19.3
+scikit-learn==1.1.2
+scipy==1.8.1
+seaborn==0.12.0
+pytorch-lightning==1.6.4
