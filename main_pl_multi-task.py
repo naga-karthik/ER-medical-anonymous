@@ -110,7 +110,7 @@ class Model(pl.LightningModule):
 
         elif self.args.dataset_type == 'scgm':
             logger.info("Using SCGM dataset!")
-            dataset_pth = '/Users/anonymous/projects/projects/ivadomed/gm_challenge_16_resampled'
+            dataset_pth = '/Users/anonymous/projects/gm_challenge_16_resampled'
             label_key = 'label'
 
             create_datalist_cmd = '%s %s -se %d -dr %s -ds %s'

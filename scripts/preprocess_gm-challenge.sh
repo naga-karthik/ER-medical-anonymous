@@ -1,6 +1,7 @@
 #!/bin/bash
 #
-# Preprocess data using Spinal Cord Toolbox (SCT).
+# Preprocess data using Spinal Cord Toolbox (SCT). The script expects the data to be organized according to the BIDS
+# standard (http://bids.neuroimaging.io/).
 #
 # Dependencies (versions):
 # - SCT (5.4.0)

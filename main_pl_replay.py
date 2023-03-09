@@ -108,7 +108,7 @@ class Model(pl.LightningModule):
 
         elif self.args.dataset_type == 'scgm':
             logger.info("Using SCGM dataset!")
-            dataset_pth = '/Users/anonymous/projects/projects/ivadomed/gm_challenge_16_resampled'
+            dataset_pth = '/Users/anonymous/projects/gm_challenge_16_resampled'
             # train the labels corresponding to the respective centers first
             label_key = 'label'
 

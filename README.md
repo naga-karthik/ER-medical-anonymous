@@ -1,4 +1,4 @@
-# ER-medical-anonymous
+# ER-medical-image-segmentation
 
 ### Structure of the Repository
 
@@ -8,10 +8,10 @@
 
 3. `utils/`: Contains 4 files
 
-    a. `create_json_data_*.py`: Creates a `json` file (in the Medical Segmentation Decathlon format) for both datasets used in the paper
+    a. `create_json_data_*.py`: Creates a `json` file (in the Medical Segmentation Decathlon format) for both datasets used in the paper.
 
     b. `data_utils.py`: Contains the necessary functions for loading the data, creating the dataloaders, and entropy-based sample selection. 
 
     c. `metrics.py`: Contains the implementations of continual learning metrics. 
 
-    d. `transforms.py`: Contains the necessary functions for data augmentation for both datasets.
+    d. `transforms.py`: Contains the data augmentation transforms used for both datasets.

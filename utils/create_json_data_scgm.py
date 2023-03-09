@@ -3,6 +3,8 @@ Creates json files in the Medical Segmentation Decathlon datalist format contain
 dictionaries of image-label pairs for training and testing for each center in the 
 Spinal Cord Gray Matter (SCGM) dataset.
 Website: http://niftyweb.cs.ucl.ac.uk/program.php?p=CHALLENGE
+NOTE: On the challenge website, the centers are listed as 'UCL', 'EPM', 'VDB', 'UHZ'
+we just use a slightly different naming convention here
 """
 
 import os
